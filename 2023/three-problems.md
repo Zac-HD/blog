@@ -1005,6 +1005,7 @@ and whistles, but may be worth a look:
 * [parsy](https://parsy.readthedocs.io/en/latest/overview.html)
 * [reparsec](https://github.com/ethframe/reparsec)
 * [parsita](https://github.com/drhagen/parsita)
+* [Hypothesis](https://hypothesis.readthedocs.io/en/latest/) strategies are combinators
 * (Add more to the list... submit a PR).
 
 ## Various Thoughts
@@ -1023,7 +1024,9 @@ side project. Having never programmed Haskell before, I had to
 entirely rewire part of my brain.  To help, I started working from the 
 "Programming in Haskell" book by Graham Hutton.  As it turns out,
 Graham has significant experience with monadic parser
-combinators (see [this paper](https://www.cs.nott.ac.uk/~pszgmh/monparsing.pdf) for instance)
+
+
+(see [this paper](https://www.cs.nott.ac.uk/~pszgmh/monparsing.pdf) for instance)
 and many of the examples in his book were focused on this technique.
 
 It had never occurred to me to write a parser in this way.  Thus, most of
